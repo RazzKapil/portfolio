@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/8f0780083f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Untitled-1.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <class class="header-text">
+                <p>web developer and java developer</p>
+                <h1>Hi, I'm <span> Kapil </span><br>Singh from Hamirpur</h1>
+            </class>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/solo4.png.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ipsam, similique fugiat vero voluptates dolorum quibusdam maxime perspiciatis asperiores earum vel? Vel quis aliquam eos porro perspiciatis ex provident. Praesentium distinctio illum fuga
+                        sequi debitis ipsam!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tab-links" onclick="opentab('exprience')">
+                            Expreience
+                        </p>
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web developer/Java developer</span><br> Designing Web/App interfaces</li>
+                            <li><span>Java/C++</span><br> DBMS/SQL
+                            </li>
+                            <li><span>Data Structure</span><br> Photoshop
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li>
+                                <h1>Photoshop | Technical Team | Event Organiser(Udbhav)</h1><br><span>Worked in a team of 20+ member and organised events in fest </span><br> Researched data for the events , schdules for the projects.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016 </span><br> I have done High School from S S inter college sarila <br> i got 74.67% in 10th</li>
+                            <li><span>2018 </span><br>I have done 12 class from saraswati vidya mandir inter college hamirpur <br> i got 81% in 12th
+                            </li>
+                            <li><span>2019-2023</span><br> I am pursuing B.tech from Inderaprastha Engineering college Ghaziabad <br> i got 70.37% in b.tech till 6th sem
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services
+
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ipsam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Java developer</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ipsam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, ipsam!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/R.jpg" alt="">
+                    <div class="layer">
+                        <h3> Quiz Manage-ment System </h3>
+                        <p>Quiz Management System is an online application, from which users can easily manage Quiz details. Admin can track all the information of Academic, Score, Performance etc. Admin can edit, add, delete and update the records of Quiz,
+                            Participate, Winner.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/OIP.jpg" alt="">
+                    <div class="layer">
+                        <h3> Onlline Shopping Website</h3>
+                        <p>Quiz Management System is an online application, from which users can easily manage Quiz details. Admin can track all the information of Academic, Score, Performance etc. Admin can edit, add, delete and update the records of Quiz,
+                            Participate, Winner.</p>
+                        <a href="index2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/download.jpg" alt="">
+                    <div class="layer">
+                        <h3> Music App</h3>
+                        <p>Quiz Management System is an online application, from which users can easily manage Quiz details. Admin can track all the information of Academic, Score, Performance etc. Admin can edit, add, delete and update the records of Quiz,
+                            Participate, Winner. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kapilsinghrajpoot95@gmail.com</p>
+                    <p><i class="fa-solid fa-circle-phone"></i>8887698460</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/kapilsingh.rajpoot.1612/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/k.s.rajput__/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kapil-singh-677a81176/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/resume kapil.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Kapil </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = decument.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxDDExXXvoC_L0ScqwmPQ0suPC3Fw_Gvq2p1nzbvHgMYEONDwXYTCzbTyds4R4XrA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function()) {
+                            msg.innerHTML = ""
+                        }, 5000) form.reset()
+                })
+        .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
